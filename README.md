@@ -1,1 +1,23 @@
-Increasing numbers of users are outsourcing data to the cloud, but data integrity is an important issue. Due to the decentralization and immutability of blockchain, more and more researchers tend to use blockchain to replace third-party auditors. This paper proposes a data integrity system based on blockchain expansion technology that aims to solve the problem of high cost for blockchain network maintenance and for user creation of new blocks caused by the rapid growth of blocks in the data integrity audit scheme of existing blockchain technology. Users and cloud service providers (CSP) deploy smart contracts on the main chain and sub-chains. Intensive and frequent computing work is transferred to the sub-chain for completion, and the computation results of the sub-chain are submitted to the main chain periodically or when needed to ensure its finality. The concept of non-interactive audit is introduced to avoid affecting user experience due to the communication with the CSP during the audit process. In order to ensure data security, a reward pool mechanism is introduced. Comprehensive analysis from aspects such as storage, batch auditing and data consistency proves the correctness of the scheme. Experiments on the Ethereum blockchain platform demonstrate that this scheme can effectively reduce storage and computational overhead.
+Problem Statement: Increasing usage of cloud storage raises concerns about data integrity. Traditional blockchain-based data integrity audit schemes face issues like high maintenance costs and rapid block growth.
+
+Proposed Solution:
+
+A data integrity system using blockchain expansion technology.
+
+Smart contracts are deployed on both the main chain and sub-chains.
+
+Intensive computing tasks are handled by sub-chains, and their results are periodically submitted to the main chain to ensure finality.
+
+Non-Interactive Audit:
+
+Introduces non-interactive audit to avoid affecting user experience by reducing communication with Cloud Service Providers (CSPs) during the audit process.
+
+Reward Pool Mechanism:
+
+Implements a reward pool mechanism to enhance data security.
+
+Analysis and Validation:
+
+Comprehensive analysis covers storage, batch auditing, and data consistency.
+
+Experiments on the Ethereum blockchain demonstrate reduced storage and computational overhead.
